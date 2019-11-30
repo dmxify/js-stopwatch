@@ -1,49 +1,64 @@
-<a name="Stopwatch"></a>
+<h1 align="center">Welcome to js-stopwatch 👋</h1>
+<p>
+  <a href="https://www.npmjs.com/package/js-stopwatch" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/js-stopwatch.svg">
+  </a>
+  <a href="https://github.com/dmxify/js-stopwatch/blob/master/api.md" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/dmxify/js-stopwatch/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://github.com/dmxify/js-stopwatch/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/dmxify/js-stopwatch" />
+  </a>
+  <a href="https://twitter.com/jasbanza" target="_blank">
+    <img alt="Twitter: jasbanza" src="https://img.shields.io/twitter/follow/jasbanza.svg?style=social" />
+  </a>
+</p>
 
-## Stopwatch
-JS Stopwatch class with start, restart, stop, reset & alarm (AKA execute callback) methods.
-You can reset the elapsed time before the alarm time is reached as you would with a real stopwatch.
+> JS Stopwatch class with start, restart, stop, reset & alarm (AKA execute callback) methods.
 
-**Kind**: global class  
+### 🏠 [Homepage](https://github.com/dmxify/js-stopwatch#readme)
 
-* [Stopwatch](#Stopwatch)
-    * [new Stopwatch(options)](#new_Stopwatch_new)
-    * [.start()](#Stopwatch+start)
-    * [.stop()](#Stopwatch+stop)
-    * [.reset()](#Stopwatch+reset)
-    * [.restart()](#Stopwatch+restart)
+### ✨ [Demo](https://gist.github.com/dmxify/d9f60adc1e5c050dacdbe80135bca25a)
 
-<a name="new_Stopwatch_new"></a>
+## Install
 
-### new Stopwatch(options)
+```sh
+npm install js-stopwatch
+```
 
-| Param | Type | Description |
-| --- | --- | --- |
-| options |  |  |
-| options.alarm | <code>callback</code> | callback function to execute when Stopwatch's elapsed time is reached |
-| options.timeAlarmMS | <code>number</code> | time in milliseconds before alarm callback is executed. |
+## Run tests
 
-<a name="Stopwatch+start"></a>
+```sh
+npm run test
+```
 
-### stopwatch.start()
-Starts the stopwatch
+## Author
 
-**Kind**: instance method of [<code>Stopwatch</code>](#Stopwatch)  
-<a name="Stopwatch+stop"></a>
+👤 **Jason Banfield**
 
-### stopwatch.stop()
-Stops the stopwatch
+* Website: https://dmxify.com
+* Twitter: [@jasbanza](https://twitter.com/jasbanza)
+* Github: [@dmxify](https://github.com/dmxify)
 
-**Kind**: instance method of [<code>Stopwatch</code>](#Stopwatch)  
-<a name="Stopwatch+reset"></a>
+## 🤝 Contributing
 
-### stopwatch.reset()
-Stops the stopwatch and clears elapsed time
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/dmxify/js-stopwatch/issues).
 
-**Kind**: instance method of [<code>Stopwatch</code>](#Stopwatch)  
-<a name="Stopwatch+restart"></a>
+## Show your support
 
-### stopwatch.restart()
-Resets (stop and clear elapsed time) and starts the stopwatch again
+Give a ⭐️ if this project helped you!
 
-**Kind**: instance method of [<code>Stopwatch</code>](#Stopwatch)  
+<a href="https://www.patreon.com/dmxify">
+  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
+
+## 📝 License
+
+Copyright © 2019 [Jason Banfield](https://github.com/dmxify).<br />
+This project is [MIT](https://github.com/dmxify/js-stopwatch/blob/master/LICENSE) licensed.
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
