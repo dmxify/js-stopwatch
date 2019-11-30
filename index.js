@@ -49,7 +49,7 @@ const Stopwatch = class {
    * Resets (stop and clear elapsed time) and starts the stopwatch again
    */
   restart() {
-    this.reset()
+    this.reset();
     this.start();
   }
 
