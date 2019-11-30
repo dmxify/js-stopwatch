@@ -1,8 +1,13 @@
+## Classes
+
+<dl>
+<dt><a href="#Stopwatch">Stopwatch</a></dt>
+<dd></dd>
+</dl>
+
 ## Functions
 
 <dl>
-<dt><a href="#restart">restart(alarm, timeAlarmMS)</a></dt>
-<dd></dd>
 <dt><a href="#start - starts the stopwatch">start - starts the stopwatch()</a></dt>
 <dd></dd>
 <dt><a href="#stop - stops the stopwatch">stop - stops the stopwatch()</a></dt>
@@ -13,15 +18,19 @@
 <dd></dd>
 </dl>
 
-<a name="restart"></a>
+<a name="Stopwatch"></a>
 
-## restart(alarm, timeAlarmMS)
-**Kind**: global function  
+## Stopwatch
+**Kind**: global class  
+<a name="new_Stopwatch_new"></a>
+
+### new Stopwatch(options)
 
 | Param | Type | Description |
 | --- | --- | --- |
-| alarm | <code>callback</code> | callback function to execute when Stopwatch's elapsed time is reached |
-| timeAlarmMS | <code>number</code> | time in milliseconds before alarm callback is executed. |
+| options |  |  |
+| options.alarm | <code>callback</code> | callback function to execute when Stopwatch's elapsed time is reached |
+| options.timeAlarmMS | <code>number</code> | time in milliseconds before alarm callback is executed. |
 
 <a name="start - starts the stopwatch"></a>
 

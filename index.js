@@ -1,13 +1,10 @@
-/**
- * @class Stopwatch
- * @param {callback} alarm - callback function to execute when Stopwatch's elapsed time is reached
- * @param {number} timeAlarmMS - time in milliseconds before alarm callback is executed.
- * @method start
- * @method stop
- * @method reset
- * @method restart
- */
 const Stopwatch = class {
+  /**
+  * @constructor
+  * @param options
+  * @param {callback} options.alarm - callback function to execute when Stopwatch's elapsed time is reached
+  * @param {number} options.timeAlarmMS - time in milliseconds before alarm callback is executed.
+  */
   constructor({
     alarm = () => {},
     timeAlarmMS = null
