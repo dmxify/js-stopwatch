@@ -1,10 +1,10 @@
 {
   "name": "js-stopwatch",
-  "version": "1.0.3",
-  "description": "JS Stopwatch class with start, stop, restart, reset & alarm functions.",
+  "version": "1.0.5",
+  "description": "JS Stopwatch class with start, restart, stop, reset & alarm (AKA execute callback) methods.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node test.js",
     "docs": "jsdoc2md index.js > api.md"
   },
   "repository": {

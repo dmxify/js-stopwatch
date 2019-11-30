@@ -1,6 +1,9 @@
 <a name="Stopwatch"></a>
 
 ## Stopwatch
+JS Stopwatch class with start, restart, stop, reset & alarm (AKA execute callback) methods.
+You can reset the elapsed time before the alarm time is reached as you would with a real stopwatch.
+
 **Kind**: global class  
 
 * [Stopwatch](#Stopwatch)
