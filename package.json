@@ -1,6 +1,6 @@
 {
   "name": "js-stopwatch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JS Stopwatch class with start, stop, restart, reset & alarm functions.",
   "main": "index.js",
   "scripts": {
