@@ -20,21 +20,21 @@ const Stopwatch = class {
   }
 
   /**
-   * @method start - starts the stopwatch
+   * Starts the stopwatch
    */
   start() {
     this._timer = setInterval(this.incrementElapsedTime, this._timeIncrementMS);
   }
 
   /**
-   * @method stop - stops the stopwatch
+   * Stops the stopwatch
    */
   stop() {
     clearInterval(this._timer);
   }
 
   /**
-   * @method reset - stops the stopwatch and clears elapsed time
+   * Stops the stopwatch and clears elapsed time
    */
   reset() {
     this.stop();
@@ -42,7 +42,7 @@ const Stopwatch = class {
   }
 
   /**
-   * @method restart - resets (stop and clear elapsed time) and starts the stopwatch again
+   * Resets (stop and clear elapsed time) and starts the stopwatch again
    */
   restart() {
     this.reset()
