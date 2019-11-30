@@ -1,0 +1,23 @@
+{
+  "name": "js-stopwatch",
+  "version": "1.0.0",
+  "description": "JS Stopwatch class with start, stop, restart, reset & alarm functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmxify/js-stopwatch.git"
+  },
+  "keywords": [
+    "timer",
+    "stopwatch"
+  ],
+  "author": "Jason Banfield",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmxify/js-stopwatch/issues"
+  },
+  "homepage": "https://github.com/dmxify/js-stopwatch#readme"
+}
